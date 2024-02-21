@@ -8,8 +8,12 @@ export default function App() {
     <>
       {/* <p className="bg-red-500 text-5xl">hi</p> */}
       <div className="w-full h-full flex flex-col"
-     id="bg"
-      >
+        id="bg"
+        style={{
+                      backgroundImage: "url(/src/assets/bgg.png)",
+                      backgroundSize: "cover",
+                    }}
+                >
         <div className="down px-3 py-1 flex justify-center items-center">
           <div className="w-[80%] pt-4 px-4 pb-2 bg-[#d3dbeb]   flex flex-col justify-center items-center gap-4 rounded-xl">
           <p className=" text-center">OUR SMEDIA</p>
