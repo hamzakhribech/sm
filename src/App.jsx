@@ -4,7 +4,7 @@ import Typewriter from "./typing.jsx";
 import Countdown from "./counter.jsx";
 import title from "/src/assets/title.png"
 import date from "/src/assets/date.png"
-import bgImage from '../assets/bgg.png';
+import bgImage from '/src/assets/bgg.png';
 export default function App() {
  
   return (
