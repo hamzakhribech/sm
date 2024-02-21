@@ -4,6 +4,7 @@ import Typewriter from "./typing.jsx";
 import Countdown from "./counter.jsx";
 import title from "/src/assets/title.png"
 import date from "/src/assets/date.png"
+import bgImage from '../assets/bgg.png';
 export default function App() {
  
   return (
@@ -12,7 +13,7 @@ export default function App() {
       <div className="bg w-full h-full flex flex-col"
         id="bg"
         style={{
-                      backgroundImage: "url(/src/assets/bgg.png)",
+                      backgroundImage: `url(${bgImage})`,
                       backgroundSize: "cover",
                     }}
                 >
