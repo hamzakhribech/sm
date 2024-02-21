@@ -55,8 +55,8 @@
     }
     /* ================= */
  
-#bg{
-  background-image: url('/src/assets/bgg.png');
+.bg{
+  background-image: url(/src/assets/bgg.png);
    background-size: cover; /* Scale the background image to be as small as possible while covering the entire container */
   background-position: center; /* Center the background image within the container */
   background-repeat: no-repeat;

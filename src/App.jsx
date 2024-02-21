@@ -9,7 +9,7 @@ export default function App() {
   return (
     <>
       {/* <p className="bg-red-500 text-5xl">hi</p> */}
-      <div className="w-full h-full flex flex-col"
+      <div className="bg w-full h-full flex flex-col"
         id="bg"
         style={{
                       backgroundImage: "url(/src/assets/bgg.png)",
