@@ -2,7 +2,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 @import url('https://fonts.googleapis.com/css?family=Lato');
-
+/* @import url('/src/assets/bgg.png')  */
 
 
 :root {
@@ -56,7 +56,7 @@
     /* ================= */
  
 #bg{
-  background-image: url(/src/assets/bgg.png);
+  background-image: url('/src/assets/bgg.png');
    background-size: cover; /* Scale the background image to be as small as possible while covering the entire container */
   background-position: center; /* Center the background image within the container */
   background-repeat: no-repeat;
