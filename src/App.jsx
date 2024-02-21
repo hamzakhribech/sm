@@ -2,6 +2,8 @@ import "./Globalcss.css";
 import SMedia from "./sMedias";
 import Typewriter from "./typing.jsx";
 import Countdown from "./counter.jsx";
+import title from "/src/assets/title.png"
+import date from "/src/assets/date.png"
 export default function App() {
  
   return (
@@ -22,12 +24,12 @@ export default function App() {
         </div>
         <div className="cnt flex justify-center" >
         <div className="transform translate-y-[-50px] " >
-          <img className="transform scale-[1.2]" src="/src/assets/title.png"/>
+            <img className="transform scale-[1.2]" src={title} />
         </div>
         </div>
       </div>
       <div className="transform translate-y-[-138px]  flex flex-col gap-5" >
-          <img className="drop-shadow-xl drop-shadow-black" src="/src/assets/date.png"/>
+        <img className="drop-shadow-xl drop-shadow-black" src={date} />
        
       </div>
       <div className="transform translate-y-[-170px]  flex flex-col gap-5">
