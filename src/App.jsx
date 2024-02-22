@@ -39,7 +39,7 @@ export default function App() {
           delay={150}
         />
         <Countdown
-          timeTillDate="03 03 2024, 9:00 am"
+          timeTillDate="03 03 2024, 9:30 am"
           timeFormat="MM DD YYYY, h:mm a"
         />
       </div>
