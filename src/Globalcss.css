@@ -148,3 +148,61 @@ footer a {
     color: #3c97bf;
     text-decoration: none;
 }
+/* ==== */
+.a1{
+   animation: coloranimation1 2s  ;
+   animation-delay: 200ms;
+   transition-timing-function: ease-in-out; 
+}
+@keyframes coloranimation1 {
+      0% {
+        color:rgb(0, 123, 255);
+      }
+      100%{
+        color:rgb(0, 123, 255);
+      }
+     
+    }
+    .a2{
+   animation: coloranimation2 1s  ;
+   animation-delay: 2000ms;
+   transition-timing-function: ease-in-out; 
+}
+@keyframes coloranimation2 {
+      0% {
+        color:rgb(255, 0, 68);
+      }
+      100%{
+                color:rgb(255, 0, 68);
+
+      }
+      
+    }
+    .a3{
+   animation: coloranimation3 1s  ;
+   animation-delay: 3000ms;
+   transition-timing-function: ease-in-out; 
+}
+@keyframes coloranimation3{
+      0% {
+        color:rgb(74, 160, 253);
+      }
+      100%{
+        color:rgb(83, 164, 251);
+      }
+      
+    }
+    .a4{
+   animation: coloranimation4 1s  ;
+   animation-delay: 4000ms;
+   transition-timing-function: ease-in-out; 
+}
+@keyframes coloranimation4 {
+      0% {
+        color:rgb(255, 0, 0);
+      }
+      100%{
+        color:rgb(255, 0, 0);
+      }
+      
+    }
