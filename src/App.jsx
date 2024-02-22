@@ -52,7 +52,7 @@ export default function App() {
           
           <div className="h-fit flex flex-col justify-center">
             <p className="w-full  text-cente  flex items-center  justify-center  "></p>
-            © 2024 club ginie informatique, Ensa Oujda.
+            © 2024 club génie informatique, Ensa Oujda.
             <a
               href="https://www.linkedin.com/in/hamza-khribech-ba4942212"
               target="_blank"
