@@ -1,5 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-irregular-whitespace */
+import g1 from "/src/assets/guest2.png"
+import g2 from "/src/assets/guest1.png"
+import g3 from "/src/assets/guest3.png"
 import { useEffect } from "react";
 const Guests = () => {
   useEffect(() => {
@@ -26,7 +29,7 @@ const Guests = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 ">
             <div className="col-12 md:col-span-1 delay-300" data-visual="false">
               <div className="flex flex-wrap justify-center items-center">
-                <img className="w-[200px]" src="/src/assets/guest2.png" />
+                <img className="w-[200px]" src={g1} />
                 <div className="flex flex-col transform -translate-y-5 ">
                   <p className="text-xl font-semibold pt-3 m-0">Mohssine MASAAF</p>
                   <p className="text-gray-600">
@@ -39,7 +42,7 @@ const Guests = () => {
 
             <div className="col-12 md:col-span-1 delay-500" data-visual="false">
               <div className="flex flex-wrap justify-center items-center">
-                <img className="w-[200px]" src="/src/assets/guest1.png" />
+                <img className="w-[200px]" src={g2} />
                 <div className="flex flex-col transform -translate-y-5 ">
                   <p className="text-xl font-semibold pt-3 m-0">Badr BOUSSABAT</p>
                   <p className="text-gray-600">
@@ -52,7 +55,7 @@ const Guests = () => {
             </div>
             <div className="col-12 md:col-span-1 delay-700" data-visual="false">
               <div className="flex flex-wrap justify-center items-center">
-                <img className="w-[200px]" src="/src/assets/guest3.png" />
+                <img className="w-[200px]" src={g3} />
                 <div className="flex flex-col transform -translate-y-5 ">
                   <p className="text-xl font-semibold pt-3 m-0"> Houssam SAOUDY</p>
                   <p className="text-gray-600">
