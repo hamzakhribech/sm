@@ -5,10 +5,20 @@ import Countdown from "./counter.jsx";
 import title from "/src/assets/title.png";
 import date from "/src/assets/date.png";
 import bgImage from "/src/assets/bgg.jpg";
-import logo from "/src/assets/logo.png";
+import { useEffect, useState } from "react";
+import Loader from "./loader.jsx";
+import Guests from "./guests.jsx";
+import Footer from "./footer.jsx";
+import Ateliers from "./ateliers.jsx";
 export default function App() {
-  return (
-    <>
+  const [state, setState] = useState(false);
+  useEffect(() => {
+    setTimeout(() => {
+      setState(true)
+    }, 2500);
+  },[])
+  return (<>
+    {state?<div>
       {/* <p className="bg-red-500 text-5xl">hi</p> */}
       <div
         className="bg w-full h-full flex flex-col"
@@ -38,33 +48,23 @@ export default function App() {
           phrases={["Welcome!", "Vous êtes les bienvenus", "See You There!"]}
           delay={150}
         />
-        <Countdown
+        <div className="block min-h-[280px]">
+          <Countdown
           timeTillDate="03 03 2024, 9:00 am"
           timeFormat="MM DD YYYY, h:mm a"
         />
-      </div>
-
-      <div className="p-3 flex flex-col gap-1 justify-center items-center w-full  bg-white">
-      
-        <img className="w-[100px]" src={logo} />
-         
-            <SMedia />
-          
-          <div className="h-fit flex flex-col justify-center">
-            <p className="w-full  text-cente  flex items-center  justify-center  "></p>
-            © 2024 club ginie informatique, Ensa Oujda.
-            <a
-              href="https://www.linkedin.com/in/hamza-khribech-ba4942212"
-              target="_blank"
-              rel="noreferrer"
-              className="text-center w-full flex justify-center items-center text-gray-400"
-            >
-              By:H.K
-              <i className="fa-brands fa-linkedin text-blue-400" />
-            </a>
-
         </div>
+        
+        <Guests />
+        {/* <Ateliers/> */}
+      <Footer/>
+
       </div>
-    </>
+
+      
+
+
+
+    </div>:<Loader/>}</>
   );
 }
