@@ -22,7 +22,7 @@ const Guests = () => {
         <header className="p-0 m-0">
           <h1 className="text-3xl p-0 m-0 bg-green-500 shadow-md">Nos invités</h1>
         </header>
-        <section className="block-body ">
+        <section className="block-body pt-5 ">
           <div className="grid grid-cols-1 md:grid-cols-2 ">
             <div className="col-12 md:col-span-1 delay-300" data-visual="false">
               <div className="flex flex-wrap justify-center items-center">
