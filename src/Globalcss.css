@@ -65,16 +65,18 @@
 }
 /* datavisual */
 
-div[data-visual]{
+div[data-visual] {
   transition-duration: 3s;
 }
+
 div[data-visual="true"] {
-  opacity:  1;
-  transform: translateX(0);
+  opacity: 1;
+  transform: translateY(0);
 }
+
 div[data-visual="false"] {
   opacity: 0;
-  transform: translateX(-100%);
+  transform: translateY(100%);
 }
 
 

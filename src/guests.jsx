@@ -20,9 +20,9 @@ const Guests = ({state}) => {
     elements.forEach((el) => observer.observe(el));
   }, []);
   return (
-    <>
-       {state?<div className="flex justify-start  bg-gradient-to-b from-slate-50 to-slate-200">
-      <div className="container text-center">
+    <div className={`${!state?'hidden':'block'}`}>
+       <div className="flex justify-start  bg-gradient-to-b from-slate-50 to-slate-200">
+      <div className=" text-center">
         <header className="p-0 m-0">
           <h1 className="text-3xl p-0 m-0 bg-green-500 shadow-md">Nos invités</h1>
         </header>
@@ -41,7 +41,7 @@ const Guests = ({state}) => {
               </div>
             </div>
 
-            <div className="col-12 md:col-span-1 delay-500" data-visual="false">
+            <div className="col-12 md:col-span-1 delay-400" data-visual="false">
               <div className="flex flex-wrap justify-center items-center">
                 <img className="w-[200px]" src={g2} />
                 <div className="flex flex-col transform -translate-y-5 ">
@@ -54,7 +54,7 @@ const Guests = ({state}) => {
                 </div>
               </div>
             </div>
-            <div className="col-12 md:col-span-1 delay-700" data-visual="false">
+            <div className="col-12 md:col-span-1 delay-500" data-visual="false">
               <div className="flex flex-wrap justify-center items-center">
                 <img className="w-[200px]" src={g3} />
                 <div className="flex flex-col transform -translate-y-5 ">
@@ -69,8 +69,8 @@ const Guests = ({state}) => {
           </div>
         </section>
       </div>
-    </div>:<p></p>}
-    </>
+    </div>
+    </div>
    
   );
 };
