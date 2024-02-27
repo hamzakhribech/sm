@@ -2,8 +2,8 @@ import logo from "/src/assets/logo2.png"
 const Loader = () => {
     return (
       <div className="pt-[100px] bg-white fixed w-screen h-screen z-[100]">
-        <div className="flex justify-center">
-          <img  className="w-[80px]" src={logo} alt="Loading" />
+        <div className="h-[100px] flex justify-center">
+          <img  className="w-[100px]" src={logo} alt="Loading" />
         </div>
    <div className="terminal-loader">
   <div className="terminal-header">

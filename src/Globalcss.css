@@ -85,13 +85,12 @@ div[data-visual="false"] {
 /* ==== */
 body {
 	/* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
-  overflow: hidden;
+        overflow-x: hidden;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
   width: screen;
-  height: screen;
 	font-family: 'Lato', sans-serif;
 	margin: 0;
 }
