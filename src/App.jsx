@@ -17,24 +17,26 @@ export default function App() {
       setState(true)
     }, 2500);
   },[])
-  return (<>
-    {state?<div>
+  return (<div className="w-screen h-screen">
+    {!state && <Loader />}
+      
+      <div>
       {/* <p className="bg-red-500 text-5xl">hi</p> */}
       <div
-        className="bg w-full h-full flex flex-col"
+        className="bg w-full h-full flex flex-col "
         id="bg"
         style={{
           backgroundImage: `url(${bgImage})`,
           backgroundSize: "cover",
         }}
       >
-        <div className="down px-3 py-1 flex justify-center items-center">
+        <div className={`${state&& 'down'} px-3 py-1 flex justify-center items-center`}>
           <div className="w-[80%] pt-4 px-4 pb-2 bg-[#d3dbeb]   flex flex-col justify-center items-center gap-4 rounded-xl">
             <p className=" text-center">OUR SMEDIA</p>
-            <SMedia />
+            <SMedia state={state} />
           </div>
         </div>
-        <div className="cnt flex justify-center">
+        <div className={`${state&& 'cnt'} flex justify-center`}>
           <div className="transform translate-y-[-50px] ">
             <img className="transform scale-[1.2]" src={title} />
           </div>
@@ -55,9 +57,9 @@ export default function App() {
         />
         </div>
         
-        <Guests />
+        <Guests state={state} />
         {/* <Ateliers/> */}
-      <Footer/>
+      <Footer state={state}/>
 
       </div>
 
@@ -65,6 +67,6 @@ export default function App() {
 
 
 
-    </div>:<Loader/>}</>
+    </div></div>
   );
 }

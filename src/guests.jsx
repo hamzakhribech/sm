@@ -4,7 +4,7 @@ import g1 from "/src/assets/guest2.png"
 import g2 from "/src/assets/guest1.png"
 import g3 from "/src/assets/guest3.png"
 import { useEffect } from "react";
-const Guests = () => {
+const Guests = ({state}) => {
   useEffect(() => {
     const elements = document.querySelectorAll("div[data-visual]"),
       observer = new IntersectionObserver((entries) => {
@@ -20,7 +20,8 @@ const Guests = () => {
     elements.forEach((el) => observer.observe(el));
   }, []);
   return (
-    <div className="flex justify-start  bg-gradient-to-b from-slate-50 to-slate-200">
+    <>
+       {state?<div className="flex justify-start  bg-gradient-to-b from-slate-50 to-slate-200">
       <div className="container text-center">
         <header className="p-0 m-0">
           <h1 className="text-3xl p-0 m-0 bg-green-500 shadow-md">Nos invités</h1>
@@ -68,7 +69,9 @@ const Guests = () => {
           </div>
         </section>
       </div>
-    </div>
+    </div>:<p></p>}
+    </>
+   
   );
 };
 export default Guests;

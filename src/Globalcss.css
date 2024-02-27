@@ -21,11 +21,7 @@
 
 
 /* ========= */
-.app{
-    background: #61bf199a;
-    width: 100% ;
-    padding: 100px;
-}
+
 /* ========general styles========= */
 .cnt{
   animation: scaleAnimation 2s;
@@ -87,7 +83,7 @@ div[data-visual="false"] {
 /* ==== */
 body {
 	background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-	overflow-x: hidden;
+	overflow: auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;

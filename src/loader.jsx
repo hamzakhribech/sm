@@ -1,7 +1,7 @@
 import logo from "/src/assets/logo2.png"
 const Loader = () => {
     return (
-      <>
+      <div className=" bg-white fixed w-screen h-screen z-[100]">
         <div className="flex justify-center">
           <img  className="w-[80px]" src={logo} alt="Loading" />
         </div>
@@ -17,7 +17,7 @@ const Loader = () => {
   <div className="text">Loading...</div>
 </div>
 
-        </>
+        </div>
     )
 }
 export default Loader;
