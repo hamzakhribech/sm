@@ -91,6 +91,7 @@ body {
 	justify-content: center;
 	flex-direction: column;
   width: screen;
+  
 	font-family: 'Lato', sans-serif;
 	margin: 0;
 }
