@@ -85,8 +85,8 @@ div[data-visual="false"] {
 /* ==== */
 body {
 	/* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
-        overflow: hidden;
-	display-x: flex;
+        overflow-x: hidden;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
