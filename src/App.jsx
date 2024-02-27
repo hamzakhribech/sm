@@ -23,7 +23,7 @@ export default function App() {
       <div>
       {/* <p className="bg-red-500 text-5xl">hi</p> */}
       <div
-        className="bg w-full h-full flex flex-col "
+        className="bg  w-full h-full flex flex-col "
         id="bg"
         style={{
           backgroundImage: `url(${bgImage})`,
@@ -42,7 +42,7 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className="transform translate-y-[-138px]  flex flex-col gap-5">
+      <div className="transform translate-y-[-138px]   flex flex-col gap-5 ">
         <img className="drop-shadow-xl drop-shadow-black" src={date} />
       </div>
       <div className="transform translate-y-[-170px] h-[200px] flex flex-col gap-5">
