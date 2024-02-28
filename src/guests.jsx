@@ -28,7 +28,7 @@ const Guests = ({state}) => {
         </header>
         <section className="block-body pt-5 ">
           <div className="grid grid-cols-1 md:grid-cols-2 ">
-            <div className="col-12 md:col-span-1 delay-300" data-visual="false">
+            <div className="col-12 md:col-span-1 delay-200" data-visual="false">
               <div className="flex flex-wrap justify-center items-center">
                 <img className="w-[200px]" src={g1} />
                 <div className="flex flex-col transform -translate-y-5 ">
@@ -41,7 +41,20 @@ const Guests = ({state}) => {
               </div>
             </div>
 
-            <div className="col-12 md:col-span-1 delay-400" data-visual="false">
+            
+            <div className="col-12 md:col-span-1 delay-200" data-visual="false">
+              <div className="flex flex-wrap justify-center items-center">
+                <img className="w-[200px]" src={g3} />
+                <div className="flex flex-col transform -translate-y-5 ">
+                  <p className="text-xl font-semibold pt-3 m-0"> Houssam SAOUDY</p>
+                  <p className="text-gray-600">
+                    premier Salesforce MVP en Afrique Lead Technique de la
+                    pratique Salesforce chez Capgemini .
+                  </p>
+                </div>
+              </div>
+              </div>
+              <div className="col-12 md:col-span-1 delay-0" data-visual="false">
               <div className="flex flex-wrap justify-center items-center">
                 <img className="w-[200px]" src={g2} />
                 <div className="flex flex-col transform -translate-y-5 ">
@@ -50,18 +63,6 @@ const Guests = ({state}) => {
                     Conférencier international en Intelligence Artificielle
                     Auteur renommé de l'ouvrage "L'Intelligence Artificielle
                     dans le Monde d'Aujourd'hui" économiste et politologue
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-12 md:col-span-1 delay-400" data-visual="false">
-              <div className="flex flex-wrap justify-center items-center">
-                <img className="w-[200px]" src={g3} />
-                <div className="flex flex-col transform -translate-y-5 ">
-                  <p className="text-xl font-semibold pt-3 m-0"> Houssam SAOUDY</p>
-                  <p className="text-gray-600">
-                    premier Salesforce MVP en Afrique Lead Technique de la
-                    pratique Salesforce chez Capgemini .
                   </p>
                 </div>
               </div>

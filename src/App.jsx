@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 import Loader from "./loader.jsx";
 import Guests from "./guests.jsx";
 import Footer from "./footer.jsx";
+import Ateliers from "./ateliers.jsx";
 // import Ateliers from "./ateliers.jsx";
 export default function App() {
   const [state, setState] = useState(false);
@@ -58,7 +59,7 @@ export default function App() {
         </div>
         
         <Guests state={state} />
-        {/* <Ateliers/> */}
+        <Ateliers state={state}/>
       <Footer state={state}/>
 
       </div>

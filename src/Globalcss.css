@@ -78,9 +78,35 @@ div[data-visual="false"] {
   opacity: 0;
   transform: translateY(100%);
 }
+/* ======= */
+div[data-visual].at {
+  transition-duration: 3s;
+}
 
+div[data-visual="true"].at {
+  opacity: 1;
+  transform: translateX(0);
+}
 
-  
+div[data-visual="false"].at {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+/* ===== */
+  div[data-visual].atb {
+  transition-duration: 3s;
+}
+
+div[data-visual="true"].atb {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+div[data-visual="false"].atb {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
 
 /* ==== */
 body {
