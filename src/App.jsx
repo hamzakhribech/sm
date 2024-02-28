@@ -19,7 +19,7 @@ export default function App() {
     }, 2500);
   },[])
   return (<div className="w-screen h-screen">
-    {!state && <Loader />}
+    {state && <Loader />}
       
       <div>
       {/* <p className="bg-red-500 text-5xl">hi</p> */}
