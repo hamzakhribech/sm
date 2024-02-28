@@ -18,7 +18,7 @@ const Footer = ({state}) => {
               rel="noreferrer"
               className="text-center w-full flex justify-center items-center text-gray-400"
             >
-              By:H.K
+              By: <u>Hamza Khribech</u> 
               <i className="fa-brands fa-linkedin text-blue-400" />
             </a>
 
