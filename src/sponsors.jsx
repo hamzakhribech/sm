@@ -31,22 +31,22 @@ const Sponsors = () => {
           </header>
           <section className=" ">
             <div className="grid grid-cols-1 md:grid-cols-2 ">
-              <div className="at col-12 md:col-span-1 delay-0" data-visual="false">
+              <div className="s col-12 md:col-span-1 delay-200" data-visual="false">
                 <div className=" flex flex-wrap justify-center items-center">
                   <img className=" h-[150px]" src={sii} />
                 </div>
               </div>
-              <div className="at col-12 md:col-span-1 delay-0" data-visual="false">
+              <div className="s col-12 md:col-span-1 delay-300" data-visual="false">
                 <div className=" flex flex-wrap justify-center items-center">
                   <img className=" w-[150px]" src={nvls} />
                 </div>
               </div>
-              <div className="at col-12 md:col-span-1" data-visual="false">
+              <div className="s col-12 md:col-span-1 delay-400" data-visual="false">
                 <div className="flex flex-wrap justify-center items-center">
                   <img className="w-[150px]" src={ump} />
                 </div>
               </div>
-              <div className="at col-12 md:col-span-1" data-visual="false">
+              <div className="s col-12 md:col-span-1 delay-500" data-visual="false">
                 <div className="flex flex-wrap justify-center items-center">
                   <img className="w-[150px]" src={mia} />
                 </div>
