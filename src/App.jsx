@@ -10,6 +10,8 @@ import Loader from "./loader.jsx";
 import Guests from "./guests.jsx";
 import Footer from "./footer.jsx";
 import Ateliers from "./ateliers.jsx";
+import Tombola from "./tombola.jsx";
+import Sponsors from "./sponsors.jsx";
 // import Ateliers from "./ateliers.jsx";
 export default function App() {
   const [state, setState] = useState(false);
@@ -43,23 +45,24 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className="transform translate-y-[-138px]   flex flex-col gap-5 ">
+      <div className="transform translate-y-[-138px]  flex flex-col gap-5 ">
         <img className="drop-shadow-xl drop-shadow-black" src={date} />
       </div>
-      <div className="transform translate-y-[-170px] h-[200px] flex flex-col gap-5">
+      <div className="  transform translate-y-[-170px] h-[320px] flex flex-col gap-5">
         <Typewriter
           phrases={["Welcome!", "Vous êtes les bienvenus", "See You There!"]}
           delay={150}
         />
-        <div className="block min-h-[280px]">
+        <div className="block min-h-[250px]">
           <Countdown
           timeTillDate="03 03 2024, 9:00 am"
           timeFormat="MM DD YYYY, h:mm a"
-        />
+          />          
         </div>
-        
+        <Tombola/>
         <Guests state={state} />
-        <Ateliers state={state}/>
+        <Ateliers state={state} />
+        <Sponsors/>
       <Footer state={state}/>
 
       </div>

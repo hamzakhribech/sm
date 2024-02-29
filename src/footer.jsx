@@ -16,10 +16,11 @@ const Footer = ({state}) => {
               href="https://www.linkedin.com/in/hamza-khribech-ba4942212"
               target="_blank"
               rel="noreferrer"
-              className="text-center w-full flex justify-center items-center text-gray-400"
+              className="text-center w-full flex justify-center items-center text-blue-400"
             >
-              By: <u>Hamza Khribech</u> 
-              <i className="fa-brands fa-linkedin text-blue-400" />
+              <pre className="text-gray-700">By </pre> Hamza Khribech
+            <i className="pl-1 fa-brands fa-linkedin text-blue-400" />
+            <i className=" pl-1 text-xs fa-solid fa-link text-gray-400"></i>
             </a>
 
         </div>

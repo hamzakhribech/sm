@@ -28,7 +28,7 @@ const Guests = ({state}) => {
         </header>
         <section className="block-body pt-5 ">
           <div className="grid grid-cols-1 md:grid-cols-2 ">
-            <div className="col-12 md:col-span-1 delay-200" data-visual="false">
+            <div className="col-12 md:col-span-1 delay-100" data-visual="false">
               <div className="flex flex-wrap justify-center items-center">
                 <img className="w-[200px]" src={g1} />
                 <div className="flex flex-col transform -translate-y-5 ">
@@ -42,7 +42,7 @@ const Guests = ({state}) => {
             </div>
 
             
-            <div className="col-12 md:col-span-1 delay-200" data-visual="false">
+            <div className="col-12 md:col-span-1 delay-0" data-visual="false">
               <div className="flex flex-wrap justify-center items-center">
                 <img className="w-[200px]" src={g3} />
                 <div className="flex flex-col transform -translate-y-5 ">
@@ -54,7 +54,7 @@ const Guests = ({state}) => {
                 </div>
               </div>
               </div>
-              <div className="col-12 md:col-span-1 delay-0" data-visual="false">
+              <div className="l col-12 md:col-span-1" data-visual="false">
               <div className="flex flex-wrap justify-center items-center">
                 <img className="w-[200px]" src={g2} />
                 <div className="flex flex-col transform -translate-y-5 ">

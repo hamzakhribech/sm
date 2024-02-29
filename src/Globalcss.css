@@ -78,6 +78,19 @@ div[data-visual="false"] {
   opacity: 0;
   transform: translateY(100%);
 }
+div[data-visual].l {
+  transition-duration: 3s;
+}
+
+div[data-visual="true"].l {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+div[data-visual="false"].l {
+  opacity: 0;
+  transform: translateY(40%);
+}
 /* ======= */
 div[data-visual].at {
   transition-duration: 3s;
@@ -106,22 +119,49 @@ div[data-visual="false"].atb {
   opacity: 0;
   transform: translateX(100%);
 }
+/* ===== */
+  div[data-visual].s {
+  transition-duration: 3s;
+}
 
+div[data-visual="true"].s {
+  opacity: 1;
+  transform: scale(1);
+  transform: translateY(0);
+}
+
+div[data-visual="false"].s {
+  opacity: 0;
+  transform: scale(0.5);
+  transform: translateY(10%);
+
+}
 
 /* ==== */
-body {
-	/* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
-        overflow-x: hidden;
+#root {
+  background-color: transparent;
+    overflow-x: hidden;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-  width: screen;
+  width: fit-content;
   
 	font-family: 'Lato', sans-serif;
 	margin: 0;
 }
-
+body {
+  background-color: rgb(227, 229, 238);
+    overflow-x: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+  width: fit-content;
+  
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
 h1 {
 	letter-spacing: 2px;
 	text-align: center;
@@ -338,3 +378,40 @@ footer a {
     blinkCursor 0.5s step-end infinite alternate;
   margin-top: 1.5em;
 }
+/* navigator */
+.button-container {
+  display: flex;
+  flex-direction:column;
+  background-color: rgba(245, 73, 144);
+  width: 40px;
+  height:250px 40px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px,
+        rgba(245, 73, 144, 0.5) 5px 10px 15px;
+}
+
+.button {
+  outline: 0 !important;
+  border: 0 !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+}
+
+.icon {
+  font-size: 20px;
+}
+/* button register */
