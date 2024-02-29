@@ -11,12 +11,12 @@ const Footer = ({state}) => {
           
           <div className="h-fit flex flex-col justify-center">
             <p className="w-full  text-cente  flex items-center  justify-center  "></p>
-            © 2024 club ginie informatique, Ensa Oujda.
+            © 2024 Club génie informatique, Ensa Oujda.
             <a
               href="https://www.linkedin.com/in/hamza-khribech-ba4942212"
               target="_blank"
               rel="noreferrer"
-              className="text-center w-full flex justify-center items-center text-blue-400"
+              className="pb-1 text-center w-full flex justify-center items-center text-blue-400"
             >
               <pre className="text-gray-700">By </pre> Hamza Khribech
             <i className="pl-1 fa-brands fa-linkedin text-blue-400" />
