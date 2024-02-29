@@ -3,7 +3,7 @@ import logo from "/src/assets/logo.png";
 
 const Footer = ({state}) => {
     return (<div className=" h-screen flex flex-col justify-end">
-    <div className="p-3 flex flex-col gap-1 justify-center items-center w-full  bg-white">
+    <div className="p-3 pb-10 flex flex-col gap-1 justify-center items-center w-full  bg-white">
       
         <img className="w-[100px]" src={logo} />
          

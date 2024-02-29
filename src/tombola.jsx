@@ -1,3 +1,4 @@
+/* eslint-disable no-irregular-whitespace */
 /* eslint-disable react/no-unescaped-entities */
 import mgp from "/src/assets/megaphone.png"
 export default function Tombola() {
@@ -13,10 +14,11 @@ export default function Tombola() {
           <h1 className="text-xl text-red-500 text-center w-fit p-0 m-0  ">
             Ne ratez pas cette occasion
                   </h1>
-                  <p className="px-5 text-center">
-                      La participation est simple et gratuite. Il vous suffit de remplir le formulaire d'inscription ci-dessous pour valider votre participation à la tombola. En tant que participant, vous courez la chance de remporter des prix exceptionnels qui rendront cette journée encore plus mémorable.
-                      Pour plus de détails, veuillez consulter cette 
-                      <a href="https://www.instagram.com/reel/C358x0moCka/?igsh=NjdveHkzOWhoMHlz" target="_blank" className="text-gray-800 font-bold underline hover:text-blue-500"><i className="fa-solid fa-link"></i> vidéo</a>
+                  <p className="px-1 text-center">
+                     Notre conférencier, Saoudi Houssam, a un cadeau spécial pour vous ! 🎉 Rejoignez-nous pour une incroyable tombola où 10 heureux gagnants seront choisis. 🏆 Et l'excitation ne s'arrête pas là : 3 personnes chanceuses remporteront des billets VIP pour l'événement exclusif North Africa Dreamin ! Ne manquez pas votre chance de faire partie du frisson ! » 
+Remplissez le formulaire ci dessous pour valider votre participation et courer la chance pour remporter des prix exceptionnels qui rendent cette journée encore plus mémorable
+                   <br/>   Pour plus de détails, voir cette 
+                      <a href="https://www.instagram.com/reel/C358x0moCka/?igsh=NjdveHkzOWhoMHlz" target="_blank" className=" font-bold underline text-blue-800 hover:text-blue-500"> vidéo <i className="fa-solid fa-link"></i></a>
                   </p>
                   <a href="https://trailblazercommunitygroups.com/events/details/salesforce-salesforce-developer-group-casablanca-morocco-presents-salesforce-workshop-a-oujda/" target="_blank" className="flex items-center justify-center bg-red-500 px-3 py-1 rounded text-white hover:bg-red-700 mt-2 group" >
                       <i className="fa-solid fa-pen-to-square text-white pr-1 group-hover:text-red-300"></i>
