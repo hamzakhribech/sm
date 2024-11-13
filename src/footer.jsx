@@ -18,7 +18,17 @@ const Footer = ({state}) => {
               rel="noreferrer"
               className="pb-1 text-center w-full flex justify-center items-center text-blue-400"
             >
-              <pre className="text-gray-700">By </pre> Hamza Khribech
+              <pre className="text-gray-700">Created By </pre> Hamza Khribech
+            <i className="pl-1 fa-brands fa-linkedin text-blue-400" />
+            <i className=" pl-1 text-xs fa-solid fa-link text-gray-400"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/abderrahmane-salmi-a1b329238"
+              target="_blank"
+              rel="noreferrer"
+              className="pb-1 text-center w-full flex justify-center items-center text-blue-400"
+            >
+              <pre className="text-gray-700">Edited By </pre> Abderrahmane Salmi
             <i className="pl-1 fa-brands fa-linkedin text-blue-400" />
             <i className=" pl-1 text-xs fa-solid fa-link text-gray-400"></i>
             </a>
