@@ -3,7 +3,7 @@ import SMedia from "./sMedias";
 import Typewriter from "./typing.jsx";
 import Countdown from "./counter.jsx";
 import microsoft from "/src/assets/MicrosoftTech.png";
-import date from "/src/assets/Date(Stay tuned).png";
+import date from "/src/assets/Date-site.png";
 import bgImage from "/src/assets/bgg.jpg";
 import { useEffect, useState } from "react";
 import Loader from "./loader.jsx";
