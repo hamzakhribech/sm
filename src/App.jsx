@@ -2,8 +2,8 @@ import "./Globalcss.css";
 import SMedia from "./sMedias";
 import Typewriter from "./typing.jsx";
 import Countdown from "./counter.jsx";
-import microsoft from "/src/assets/MicrosoftTech.png";
-import date from "/src/assets/Date(Stay tuned).png";
+import microsoft from "/src/assets/pc journee.png";
+import date from "/src/assets/date 16fevrier.png";
 import bgImage from "/src/assets/bgg.jpg";
 import { useEffect, useState } from "react";
 import Loader from "./loader.jsx";
@@ -11,7 +11,7 @@ import Guests from "./guests.jsx";
 import Footer from "./footer.jsx";
 import Ateliers from "./ateliers.jsx";
 import Tombola from "./tombola.jsx";
-// import Ateliers from "./ateliers.jsx";
+import Sponsors from "./sponsors.jsx";
 export default function App() {
   const [state, setState] = useState(false);
   useEffect(() => {
@@ -40,7 +40,7 @@ export default function App() {
         </div>
         <div className={`${state&& 'cnt'} flex justify-center`}>
           <div className="transform translate-y-[-50px] ">
-            <img className="transform scale-[1.2] w-[350px] h-[200px]" src={microsoft} />
+            <img className="transform scale-[1.1] w-[400px] h-[400px]" src={microsoft} />
           </div>
         </div>
       </div>
@@ -54,14 +54,14 @@ export default function App() {
         />
         <div className="block min-h-[250px]">
           <Countdown
-          timeTillDate="11 30 2024, 2:00 pm"
+          timeTillDate="2 16 2025, 9:00 am"
           timeFormat="MM DD YYYY, h:mm a"
           />          
         </div>
         <Tombola/>
         <Guests state={state} />
         <Ateliers state={state} />
-        {/*<Sponsors/>*/}
+        <Sponsors/>
       <Footer state={state}/>
 
       </div>

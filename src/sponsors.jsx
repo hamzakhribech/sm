@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-irregular-whitespace */
-import sii from "/src/assets/sii.png";
-import nvls from "/src/assets/nvls.png";
+// import sii from "/src/assets/sii.png";
+// import nvls from "/src/assets/nvls.png";
 import ump from "/src/assets/ump.png";
 import mia from "/src/assets/mia.png";
 import { useEffect } from "react";
@@ -31,7 +31,7 @@ const Sponsors = () => {
           </header>
           <section className=" ">
             <div className="grid grid-cols-1 md:grid-cols-2 ">
-              <div className="s col-12 md:col-span-1 delay-200" data-visual="false">
+              {/* <div className="s col-12 md:col-span-1 delay-200" data-visual="false">
                 <div className=" flex flex-wrap justify-center items-center">
                   <img className=" h-[150px]" src={sii} />
                 </div>
@@ -40,7 +40,7 @@ const Sponsors = () => {
                 <div className=" flex flex-wrap justify-center items-center">
                   <img className=" w-[150px]" src={nvls} />
                 </div>
-              </div>
+              </div> */}
               <div className="s col-12 md:col-span-1 delay-400" data-visual="false">
                 <div className="flex flex-wrap justify-center items-center">
                   <img className="w-[150px]" src={ump} />

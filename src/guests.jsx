@@ -1,11 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-irregular-whitespace */
-import g1 from "/src/assets/Mohssine MASAAF.png"
-import g2 from "/src/assets/Said WAHID.png"
-import g3 from "/src/assets/Hassan FADILI.png"
-import g4 from "/src/assets/Youssef-CHIGANE.png"
-import g5 from "/src/assets/Anas BELABBES.png"
-import g6 from "/src/assets/Outman BAZZAZ.png"
+import g1 from "/src/assets/1.png"
+import g2 from "/src/assets/2.png"
+// import g3 from "/src/assets/speakers (1).png"
+import g4 from "/src/assets/conf5.png"
+import g5 from "/src/assets/conf4.png"
 import { useEffect } from "react";
 const Guests = ({state}) => {
   useEffect(() => {
@@ -30,15 +29,32 @@ const Guests = ({state}) => {
           <h1 className="text-3xl p-0 m-0 bg-green-500 shadow-md">Nos invités</h1>
         </header>
         <section className="block-body pt-5 ">
-          <div className="grid grid-cols-1 md:grid-cols-2 ">
-            <div className="col-12 md:col-span-1 delay-100" data-visual="false">
-              <div className="flex flex-wrap justify-center items-center">
-                <img className="w-[200px]" src={g1} />
-                <div className="flex flex-col transform -translate-y-5 ">
-                  <p className="text-xl font-semibold pt-3 m-0">Mohssine MASAAF</p>
+        <div className="col-12 md:col-span-1 delay-100" data-visual="false">
+          <div className="flex flex-wrap justify-center items-center">
+              <img className="w-[200px]" src={g1} />
+                <div className="flex flex-col transform -translate-y-5">
+                  <p className="text-xl font-semibold pt-3 m-0">
+                      Abderrahmane Hassani Idrissi
+                  </p>
                   <p className="text-gray-600">
-                    expert en développement .Net plus de 12 ans d'expérience en
-                    tant que Lead Dev DotNet et Senior Consultant en Dotnet .
+                    CEO de{" "}
+                    <span className="font-bold text-blue-500 tracking-wide">Shopyan</span>{" "}
+                    &{" "}
+                    <span className="font-bold text-blue-500 tracking-wide">
+                    Neoxecutive
+                    </span>{" "}
+                    - Directeur de projet.
+                    </p>
+                  </div>
+            </div>
+
+            <div className="col-12 md:col-span-1 delay-0" data-visual="false">
+              <div className="flex flex-wrap justify-center items-center">
+                <img className="w-[200px]" src={g4} />
+                <div className="flex flex-col transform -translate-y-5 ">
+                  <p className="text-xl font-semibold pt-3 m-0">Salah-Eddine Mimouni</p>
+                  <p className="text-gray-600">
+                    Engineer in computer science | PhD en Systèmes d'information(Payment Gateways) | Expert certifié en Marketing Digital | Expert certifié en Google Ads et Google Analytics | Senior certifié en Facebook Ads | Co-fondateur de <span className="font-bold text-blue-500 tracking-wide">Richmedia Digital Agency (Dubaï et Strasbourg)</span> | Co-fondateur de <span className="font-bold text-blue-500 tracking-wide">Massinart Africa</span> . 
                   </p>
                 </div>
               </div>
@@ -49,39 +65,40 @@ const Guests = ({state}) => {
               <div className="flex flex-wrap justify-center items-center">
                 <img className="w-[200px]" src={g2} />
                 <div className="flex flex-col transform -translate-y-5 ">
-                  <p className="text-xl font-semibold pt-3 m-0">SAID WAHID</p>
+                  <p className="text-xl font-semibold pt-3 m-0">Tarik Fadli</p>
                   <p className="text-gray-600">
-                    Microsoft MVP, Senior Consultant Microsoft Cloud AZURE and .Net & Office 365 Expert .
+                    Co-Fondateur & President de <span className="font-bold text-blue-500 tracking-wide">Wraqi.ma</span>, Fondateur, CEO & IT Architect de <span className="font-bold text-blue-500 tracking-wide">Algo Consulting Group</span> .
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="col-12 md:col-span-1" data-visual="false">
+            <div className="col-12 md:col-span-1 delay-0" data-visual="false">
+              <div className="flex flex-wrap justify-center items-center">
+                <img className="w-[200px]" src={g5} />
+                <div className="flex flex-col transform -translate-y-5 ">
+                  <p className="text-xl font-semibold pt-3 m-0">Younes Ouahabi</p>
+                  <p className="text-gray-600">
+                    Founder & CEO de <span className="font-bold text-blue-500 tracking-wide">GBC.CO.MA (GREEN BIKE CITY)</span> & <span className="font-bold text-blue-500 tracking-wide">PHARMACITY</span> . 
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* <div className="col-12 md:col-span-1" data-visual="false">
               <div className="flex flex-wrap justify-center items-center">
                   <img className="w-[200px]" src={g3} />
                   <div className="flex flex-col transform -translate-y-5 ">
-                    <p className="text-xl font-semibold pt-3 m-0">HASSAN FADILI</p>
+                    <p className="text-xl font-semibold pt-3 m-0">Abdelhakim El Youssefi</p>
                     <p className="text-gray-600">
-                      Senior Azure Cloud and Azure DevOps Microsoft MVP Expert Engineer .
+                      Expert en IA et Automatisation chez Consultant indépendant | Docteur en Informatique .
                     </p>
                   </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="col-12 md:col-span-1 delay-0" data-visual="false">
-              <div className="flex flex-wrap justify-center items-center">
-                <img className="w-[200px]" src={g4} />
-                <div className="flex flex-col transform -translate-y-5 ">
-                  <p className="text-xl font-semibold pt-3 m-0">YOUSSEF CHIGANE</p>
-                  <p className="text-gray-600">
-                    Data & Artificial Intelligence Expert and Senior Microsoft Consultant & Trainer . 
-                  </p>
-                </div>
-              </div>
-            </div>
 
-            <div className="col-12 md:col-span-1 delay-0" data-visual="false">
+            {/* <div className="col-12 md:col-span-1 delay-0" data-visual="false">
               <div className="flex flex-wrap justify-center items-center">
                 <img className="w-[200px]" src={g5} />
                 <div className="flex flex-col transform -translate-y-5 ">
@@ -103,7 +120,7 @@ const Guests = ({state}) => {
                     </p>
                   </div>
                 </div>
-            </div>
+            </div> */}
           </div>
         </section>
       </div>
