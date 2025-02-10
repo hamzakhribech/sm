@@ -4,6 +4,7 @@
 // import nvls from "/src/assets/nvls.png";
 import ump from "/src/assets/ump.png";
 import mia from "/src/assets/mia.png";
+import supmti from "/src/assets/logo-transp.png";
 import { useEffect } from "react";
 const Sponsors = () => {
   useEffect(() => {
@@ -49,6 +50,11 @@ const Sponsors = () => {
               <div className="s col-12 md:col-span-1 delay-500" data-visual="false">
                 <div className="flex flex-wrap justify-center items-center">
                   <img className="w-[150px]" src={mia} />
+                </div>
+              </div>
+              <div className="s col-12 md:col-span-1 delay-500" data-visual="false">
+                <div className="flex flex-wrap justify-center items-center">
+                  <img className="w-[150px]" src={supmti} />
                 </div>
               </div>
             </div>
