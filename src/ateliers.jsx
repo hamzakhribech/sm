@@ -6,6 +6,9 @@ import three from "/src/assets/IconMMC/3.png"
 import seven from "/src/assets/IconMMC/7.png"
 import eight from "/src/assets/IconMMC/8.png"
 import nine from "/src/assets/IconMMC/9.png"
+import drone from "/src/assets/IconMMC/ic_drone.png"
+import game from "/src/assets/IconMMC/ic_game2.png"
+
 
 
 import { useEffect } from "react";
@@ -84,7 +87,28 @@ const Ateliers = ({state}) => {
                 </div>
               </div>
               </div>
+               <div className="at col-12 md:col-span-1 delay-400" data-visual="false">
+              <div className="flex flex-wrap justify-center items-center">
+                <img className="w-[200px]" src={game} />
+                <div className="flex flex-col transform -translate-y-5 ">
+                  <p className="text-xl font-semibold pt-3 m-0">Snake Game</p>
+                  <p className="text-gray-600">
+                     {/* L'objectif principal de cet atelier est généralement d'identifier les points forts et les faiblesses d'une interface ou d'un produit du point de vue de l'utilisateur. Les participants peuvent discuter des aspects tels que la navigation, la clarté des informations, la facilité d'utilisation des fonctionnalités, et d'autres éléments qui contribuent à une expérience positive.  */}
+                     Code Your Way To Victory! : <br></br>
+                     Cet atelier plonge les participants dans le développement d’un Snake Game en Java en mettant l’accent sur la programmation orientée objet (POO). Ils apprendront à structurer leur code en définissant des classes pour le serpent, la nourriture et le plateau de jeu, tout en appliquant des principes clés tels que l'encapsulation, l'héritage et le polymorphisme. À travers une interface interactive, ils pourront explorer chaque concept et comprendre comment la POO permet de concevoir un code modulaire, réutilisable et facile à maintenir.</p>                </div>
+              </div>
+              </div>
                <div className="atb col-12 md:col-span-1 delay-400" data-visual="false">
+              <div className="flex flex-wrap justify-center items-center">
+                <img className="w-[200px]" src={drone} />
+                <div className="flex flex-col transform -translate-y-5 ">
+                  <p className="text-xl font-semibold pt-3 m-0">Drones Workshop</p>
+                  <p className="text-gray-600">
+                     {/* L'objectif principal de cet atelier est généralement d'identifier les points forts et les faiblesses d'une interface ou d'un produit du point de vue de l'utilisateur. Les participants peuvent discuter des aspects tels que la navigation, la clarté des informations, la facilité d'utilisation des fonctionnalités, et d'autres éléments qui contribuent à une expérience positive.  */}
+                     Cet atelier explore quatre aspects essentiels de la technologie des drones : l'aérodynamique et la mécanique de vol, la programmation embarquée, la navigation et les capteurs, ainsi que les applications industrielles. À travers une interface interactive, les participants peuvent choisir l'un de ces domaines pour approfondir leurs connaissances et comprendre comment ces technologies façonnent l'avenir des drones dans divers secteurs.</p>                </div>
+              </div>
+              </div>
+              <div className="at col-12 md:col-span-1 delay-400" data-visual="false">
               <div className="flex flex-wrap justify-center items-center">
                 <img className="w-[200px]" src={one} />
                 <div className="flex flex-col transform -translate-y-5 ">
